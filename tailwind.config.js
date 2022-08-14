@@ -2,7 +2,16 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				phone: "url('/images/moresoulbackgroundphone.png')",
+				desktop: "url('/images/moresoulbackground.png')",
+			},
+			fontFamily: {
+				title: ['"Pirata One"', "cursive"],
+				text: ['"Nunito"', "sans-serif"],
+			},
+		},
 	},
-	plugins: [],
+	plugins: [require("tailwindcss-textshadow")],
 };
