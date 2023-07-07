@@ -2,9 +2,9 @@
   "homepage": ".",
   "name": "more-soul-tattoo",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.4.0",
+    "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
@@ -54,7 +54,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.8",
     "gh-pages": "^5.0.0",
-    "gulp": "^4.0.2",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "tailwindcss-textshadow": "^2.1.3"
