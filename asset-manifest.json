@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/moresoultattoo.com/static/css/main.2e06d041.css",
-    "main.js": "/moresoultattoo.com/static/js/main.01b0ecd3.js",
-    "static/js/787.616f3e8b.chunk.js": "/moresoultattoo.com/static/js/787.616f3e8b.chunk.js",
-    "static/media/moresoulbackgroundphone.png": "/moresoultattoo.com/static/media/moresoulbackgroundphone.c4895d1ff76871a84955.png",
-    "index.html": "/moresoultattoo.com/index.html",
-    "main.2e06d041.css.map": "/moresoultattoo.com/static/css/main.2e06d041.css.map",
-    "main.01b0ecd3.js.map": "/moresoultattoo.com/static/js/main.01b0ecd3.js.map",
-    "787.616f3e8b.chunk.js.map": "/moresoultattoo.com/static/js/787.616f3e8b.chunk.js.map"
+    "main.css": "./static/css/main.40a16f8b.css",
+    "main.js": "./static/js/main.7be387f2.js",
+    "static/js/787.616f3e8b.chunk.js": "./static/js/787.616f3e8b.chunk.js",
+    "static/media/moresoulbackgroundphone.png": "./static/media/moresoulbackgroundphone.c4895d1ff76871a84955.png",
+    "index.html": "./index.html",
+    "main.40a16f8b.css.map": "./static/css/main.40a16f8b.css.map",
+    "main.7be387f2.js.map": "./static/js/main.7be387f2.js.map",
+    "787.616f3e8b.chunk.js.map": "./static/js/787.616f3e8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e06d041.css",
-    "static/js/main.01b0ecd3.js"
+    "static/css/main.40a16f8b.css",
+    "static/js/main.7be387f2.js"
   ]
 }
