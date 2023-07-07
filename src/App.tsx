@@ -9,7 +9,8 @@ import FrequentlyAsked from "./pages/FrequentlyAsked";
 function App() {
   return (
     <div className="bg-phone bg-cover min-h-screen overflow-y-hidden overflow-x-hidden flex flex-col w-full">
-      <header className="flex fixed shadow-md pr-2 justify-end items-center font-text text-xl bg-neutral-800 bg-opacity-30 w-full h-11">
+      <Home />
+      {/* <header className="flex fixed shadow-md pr-2 justify-end items-center font-text text-xl bg-neutral-800 bg-opacity-30 w-full h-11">
         <Link
           to="/"
           className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
@@ -34,7 +35,7 @@ function App() {
         >
           Booking
         </Link>
-      </header>
+      </header> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
