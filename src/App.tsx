@@ -10,35 +10,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
-    <main>
-      <div>
-        {/* <header className="flex fixed shadow-md pr-2 justify-end items-center font-text text-xl bg-neutral-800 bg-opacity-30 w-full h-11">
+    <main className="">
+      <header className="flex fixed pr-2 justify-end items-center font-text text-xl bg-gradient-to-b from-neutral-900 w-full h-24">
         <Link
           to="/"
-          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
+          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-100"
         >
           Home
         </Link>
         <Link
           to="/portfolio"
-          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
+          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-100"
         >
           Portfolio
         </Link>
-        <Link
-          to="/FrequentlyAsked"
-          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
-        >
-          FAQ
-        </Link>
-        <Link
-          to="/contact"
-          className="text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
-        >
-          Booking
-        </Link>
-      </header> */}
-      </div>
+        {/* <Link
+            to="/FrequentlyAsked"
+            className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
+          >
+            FAQ
+          </Link>
+          <Link
+            to="/contact"
+            className="text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
+          >
+            Booking
+          </Link> */}
+      </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
