@@ -4,13 +4,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   return (
-    <section className="flex pt-24 flex-col items-center justify-between h-screen bg-phone bg-cover">
+    <section className="flex pt-24 flex-col items-center justify-between h-screen bg-phone bg-cover bg-fixed">
       <div>
         <h1 className="font-title text-4xl lg:text-6xl text-shadow-md text-neutral-600">
           MORE SOUL TATTOO
         </h1>
       </div>
-      <div className="flex flex-col w-full items-center pb-12">
+      <div className="flex flex-col w-full h-5/6 items-center pb-12">
+        <div
+          className="bg-bottom bg-cover w-4/5 h-2/5 mx-6 lg:w-4/5 lg:h-full flex items-center justify-center"
+          style={{ backgroundImage: "url(/portfolio-images/homepage2.jpeg)" }}
+        ></div>
+
         <h2 className="font-text text-3xl lg:text-5xl text-shadow-md text-neutral-700">
           NATHAN GARCIA
         </h2>
@@ -30,7 +35,6 @@ export default function Home() {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>
-      <div className="flex-stretch"></div>
     </section>
   );
 }

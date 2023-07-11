@@ -8,7 +8,7 @@ export default function Portfolio() {
       </div>
       <div className="flex flex-row">
         <div className="grid grid-cols-1 gap-4 ml-4 mr-2 w-1/2">
-          <img src="/portfolio-images/IMG_0109.png" />
+          <img src="/portfolio-images/IMG_0109.png" className="w-full" />
           <img src="/portfolio-images/IMG_0212.png" />
           <img src="/portfolio-images/IMG_0606.png" />
           <img src="/portfolio-images/IMG_4692.png" />
