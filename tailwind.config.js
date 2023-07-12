@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         phone: "url('/images/cardboardbackground.png')",
-        desktop: "url('/images/cardboardbackground.png')",
+        desktop: "url('/images/homepage2.jpeg')",
       },
       fontFamily: {
         title: ['"Asul"', "sans-serif"],
-        text: ['"Asul"', "sans-serif"],
+        text: ['"IBM Plex Serif"', "serif"],
       },
     },
   },
