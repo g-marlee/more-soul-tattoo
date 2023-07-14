@@ -5,34 +5,34 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Home() {
   return (
     <section className="flex pt-24 flex-col items-center justify-between h-screen bg-phone bg-cover bg-fixed">
-      <div>
-        <h1 className="font-title text-4xl lg:text-6xl text-shadow-md text-neutral-600">
-          MORE SOUL TATTOO
+      <div className="flex h-1/3 items-center">
+        <h1 className="font-title text-6xl lg:text-7xl text-shadow-md text-neutral-600">
+          More Soul Tattoo
         </h1>
       </div>
-      <div className="flex flex-col w-3/4 h-1/2 items-center justify-center pb-12">
-        <div
-          className="bg-center bg-cover w-4/5 h-2/5 mx-6 lg:w-full lg:h-full flex items-center justify-center"
-          style={{
-            backgroundImage: "url(/portfolio-images/blurredhomepage.png)",
-          }}
-        ></div>
-
+      <div className="flex h-1/3 items-center mb-12 justify-center">
+        <img
+          src="portfolio-images/homepage.jpeg"
+          alt=""
+          className="rounded-full h-full shadow-lg"
+        />
+      </div>
+      <div className="flex flex-col w-3/4 h-1/3 items-center  pb-12 justify-center">
         <h2 className="font-title text-3xl lg:text-5xl text-shadow-md text-neutral-700">
-          NATHAN GARCIA
+          Nathan Garcia
         </h2>
-        <p className="font-title text-lg text-shadow-md text-neutral-700">
-          586.698.2257
+        <p className="font-text text-lg text-shadow-md text-neutral-700">
+          MoreSoulTattoo@gmail.com
         </p>
-        <p className="font-title text-lg text-shadow-md text-neutral-700">
-          33476 Van Dyke Ave
+        <p className="font-text text-lg text-shadow-md text-neutral-700">
+          646 E 9 Mile
         </p>
-        <p className="font-title text-lg text-shadow-md text-neutral-700">
-          Sterling Heights, MI 48312
+        <p className="font-text text-lg text-shadow-md text-neutral-700">
+          Ferndale MI, 48220
         </p>
         <a
           href="https://www.instagram.com/moresoultattoo/"
-          className="font-title text-2xl text-shadow-lg text-neutral-700 hover:text-neutral-500"
+          className="font-text text-2xl text-shadow-lg text-neutral-700 hover:text-neutral-500"
         >
           <FontAwesomeIcon icon={faInstagram} />
         </a>

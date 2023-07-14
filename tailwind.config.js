@@ -8,8 +8,8 @@ module.exports = {
         desktop: "url('/images/homepage2.jpeg')",
       },
       fontFamily: {
-        title: ['"Asul"', "sans-serif"],
-        text: ['"IBM Plex Serif"', "serif"],
+        title: ['"Pirata One"', "sans-serif"],
+        text: ['"Carrois Gothic SC"', "sans-serif"],
       },
     },
   },
