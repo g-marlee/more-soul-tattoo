@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.40a16f8b.css",
-    "main.js": "./static/js/main.a4026643.js",
+    "main.css": "./static/css/main.26c5a348.css",
+    "main.js": "./static/js/main.3bcfa7a6.js",
     "static/js/787.616f3e8b.chunk.js": "./static/js/787.616f3e8b.chunk.js",
-    "static/media/moresoulbackgroundphone.png": "./static/media/moresoulbackgroundphone.c4895d1ff76871a84955.png",
+    "static/media/cardboardbackground.png": "./static/media/cardboardbackground.a2d64d36d9db3e31e006.png",
     "index.html": "./index.html",
-    "main.40a16f8b.css.map": "./static/css/main.40a16f8b.css.map",
-    "main.a4026643.js.map": "./static/js/main.a4026643.js.map",
+    "main.26c5a348.css.map": "./static/css/main.26c5a348.css.map",
+    "main.3bcfa7a6.js.map": "./static/js/main.3bcfa7a6.js.map",
     "787.616f3e8b.chunk.js.map": "./static/js/787.616f3e8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a16f8b.css",
-    "static/js/main.a4026643.js"
+    "static/css/main.26c5a348.css",
+    "static/js/main.3bcfa7a6.js"
   ]
 }
