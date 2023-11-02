@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function App() {
   return (
     <main className="">
-      {/* <header className="flex fixed pr-2 justify-end items-center font-text text-xl bg-gradient-to-b from-neutral-900 w-full h-24">
+      <header className="flex fixed pr-2 justify-end items-center font-text text-xl bg-gradient-to-b from-neutral-900 w-full h-24">
         <Link
           to="/"
           className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-100"
@@ -25,19 +25,19 @@ function App() {
         >
           Portfolio
         </Link>
-        <Link
-            to="/FrequentlyAsked"
-            className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
-          >
-            FAQ
-          </Link>
+        {/* <Link
+          to="/FrequentlyAsked"
+          className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
+        >
+          FAQ
+        </Link> */}
         <Link
           to="/Booking"
           className="text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
         >
           Booking
         </Link>
-      </header> */}
+      </header>
 
       <Routes>
         <Route path="/" element={<Home />} />

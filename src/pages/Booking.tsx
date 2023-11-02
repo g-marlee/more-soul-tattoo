@@ -26,8 +26,8 @@ export default function Booking() {
   return (
     <section className="flex pt-24 flex-col items-center bg-phone bg-cover bg-fixed h-screen">
       <div>
-        <h1 className="font-title text-4xl lg:text-6xl text-shadow-md text-neutral-600">
-          BOOKING
+        <h1 className="font-title text-6xl lg:text-7xl text-shadow-md text-neutral-600">
+          Booking
         </h1>
       </div>
       <div className="w-fit h-fit mt-3 rounded-md bg-gradient-to-b from-neutral-300 to-neutral-200 p-6 shadow-lg shadow-neutral-500">

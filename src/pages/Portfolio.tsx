@@ -2,8 +2,8 @@ export default function Portfolio() {
   return (
     <section className="flex pt-24 flex-col items-center bg-phone bg-cover bg-fixed">
       <div>
-        <h1 className="font-title text-4xl lg:text-6xl text-shadow-md text-neutral-600">
-          PORTFOLIO
+        <h1 className="font-title text-6xl lg:text-7xl text-shadow-md text-neutral-600">
+          Portfolio
         </h1>
       </div>
       <div className="flex flex-row">
