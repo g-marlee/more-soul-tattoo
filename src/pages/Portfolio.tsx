@@ -1,4 +1,13 @@
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 export default function Portfolio() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/Portfolio");
+  });
+
   return (
     <section className="flex pt-24 flex-col items-center bg-phone bg-cover bg-fixed">
       <div>
