@@ -16,28 +16,26 @@ function App() {
   return (
     <main className="">
       <header className="flex fixed pr-2 justify-end items-center font-text text-xl bg-gradient-to-b from-neutral-900 w-full h-24">
-        {/* <Link
+        <Link
           to="/"
           className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-100"
         >
           Home
-        </Link> */}
-        <button onClick={() => navigate("/")}>Home</button>
+        </Link>
 
-        {/* <Link
+        <Link
           to="/portfolio"
           className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-100"
         >
           Portfolio
-        </Link> */}
-        <button onClick={() => navigate("/Portfolio")}>Portfolio</button>
+        </Link>
+
         {/* <Link
           to="/FrequentlyAsked"
           className="mr-2 text-shadow-lg text-neutral-300 bg-opacity-0 hover:text-neutral-500"
         >
           FAQ
         </Link> */}
-        <button onClick={() => navigate("/Booking")}>Booking</button>
 
         {/* <Link
           to="/Booking"
@@ -50,8 +48,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/FrequentlyAsked" element={<FrequentlyAsked />} />
-        <Route path="/Booking" element={<Booking />} />
+        <Route path="/frequentlyasked" element={<FrequentlyAsked />} />
+        <Route path="/booking" element={<Booking />} />
       </Routes>
     </main>
   );

@@ -24,13 +24,13 @@ export default function Booking() {
       );
   }
   return (
-    <section className="flex pt-24 flex-col items-center bg-phone bg-cover bg-fixed h-screen">
+    <section className="flex pt-24 flex-col items-center bg-phone bg-cover bg-fixed py-8">
       <div>
         <h1 className="font-title text-6xl lg:text-7xl text-shadow-md text-neutral-600">
           Booking
         </h1>
       </div>
-      <div className="w-fit h-fit mt-3 rounded-md bg-gradient-to-b from-neutral-300 to-neutral-200 p-6 shadow-lg shadow-neutral-500">
+      <div className="w-fit h-fit mt-3 rounded-md bg-gradient-to-b from-neutral-300 to-neutral-200 p-6 shadow-lg shadow-neutral-500 my-3">
         <form
           action=""
           id="bookingForm"
@@ -149,7 +149,12 @@ export default function Booking() {
               REFERENCE IMAGES
             </label>
             <br />
-            <input type="file" id="reference" name="reference" />
+            <input
+              type="file"
+              id="reference"
+              name="reference"
+              multiple={true}
+            />
           </div>
           <input
             type="submit"
