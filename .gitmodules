@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = node_modules/.cache/gh-pages/https!github.com!g-marlee!more-soul-tattoo.git 
+  url = https://github.com/g-marlee/more-soul-tattoo/tree/main/build
