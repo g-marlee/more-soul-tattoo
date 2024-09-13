@@ -25,10 +25,10 @@ export default function Home() {
           MoreSoulTattoo@gmail.com
         </p>
         <p className="font-text text-lg text-shadow-md text-neutral-700">
-          646 E 9 Mile
+        35508 Groesbeck Highway
         </p>
         <p className="font-text text-lg text-shadow-md text-neutral-700">
-          Ferndale MI, 48220
+        Clinton Township, MI 48035
         </p>
         <a
           href="https://www.instagram.com/moresoultattoo/"
